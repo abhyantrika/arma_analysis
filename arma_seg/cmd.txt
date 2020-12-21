@@ -1,0 +1,5 @@
+#python main.py --lr 0.01 --batch_size 32 --dist-url tcp://localhost:10005 --multiprocessing-distributed --world-size 1 --rank 0  --exp_name test --workers=32 --epochs=250 --schedule 50 150 200 --momentum=0.99
+
+#python main_arma.py --exp_name deeplab_res50_pascal --model_type deeplabv3_resnet50 --batch_size 12 --workers 16 --data pascal_voc/ --lr 0.01 --momentum 0.99 --schedule 80 150 --epochs 250 --resume deeplab_res50_pascal/checkpoints/current.pth
+
+python main_arma.py --exp_name deeplab_res50_pascal_cosine --model_type deeplabv3_resnet50 --batch_size 12 --workers 16 --data pascal_voc/ --lr 0.01 --momentum 0.99 --cos --epochs 300 --resume deeplab_res50_pascal_cosine/checkpoints/current.pth

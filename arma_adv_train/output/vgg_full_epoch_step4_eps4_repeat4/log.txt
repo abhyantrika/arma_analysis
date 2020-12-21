@@ -1,0 +1,19 @@
+***************************** LOGISTICS *****************************
+Experiment Date: 2020-12-15 14:02
+Output Name: vgg_full_epoch_step4_eps4_repeat4
+User: shishira
+***************************** ARGUMENTS *****************************
+TRAIN: {'epochs': 350, 'arch': 'resnet50', 'start_epoch': 0, 'lr': 0.1, 'momentum': 0.99, 'weight_decay': 0.0005, 'print_freq': 10, 'mean': [0.4914, 0.4822, 0.4465], 'std': [0.2023, 0.1994, 0.201]}
+ADV: {'clip_eps': 0.01568627450980392, 'fgsm_step': 0.01568627450980392, 'n_repeats': 4, 'pgd_attack': [(10, 0.00392156862), (50, 0.00392156862)]}
+DATA: {'workers': 4, 'batch_size': 256, 'img_size': 32, 'crop_size': 32, 'max_color_value': 255.0}
+output_prefix: vgg_full_epoch
+config: configs.yml
+resume: 
+evaluate: False
+pretrained: False
+model: vgg
+adj_lr_factor: 150.0
+full_epoch: True
+output_name: vgg_full_epoch_step4_eps4_repeat4
+**********************************************************************
+loading arma model: 

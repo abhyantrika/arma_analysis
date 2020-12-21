@@ -1,0 +1,8 @@
+#res full epoch.
+python main_free.py --full_epoch True --output_prefix full_epoch --full_epoch True --adj_lr_factor 100
+
+#vgg base
+python main_free.py --full_epoch True --output_prefix vgg_base --model vgg 
+
+#vgg full epoch
+python main_free.py --full_epoch True --output_prefix vgg_full_epoch --model vgg --full_epoch True --adj_lr_factor 150
