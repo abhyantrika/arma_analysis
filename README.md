@@ -4,7 +4,7 @@ Root directory for ARMA.
 
 ```arma_obj_det/``` contains all necessary files to run ARMA models for object detection using Faster-RCNN model.
 
-```arma_gen/``` has all code relating to PixelCNN and ots training for ARMA models. 
+```arma_gen/``` has all code relating to PixelCNN and the ARMA implemntation of the same.
 
 ```arma_adv_training``` contains code from 'Adversarial traning for free' which is modified to run for ARMA. 
 
