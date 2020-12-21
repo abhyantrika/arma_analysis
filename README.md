@@ -1,6 +1,6 @@
 Root directory for ARMA.
 
-```arma_seg/``` directory contains all experiments detailing semantic segmentation experiments, including scripts for hyperparameter tuning and results.
+```arma_seg/``` directory contains all code detailing semantic segmentation experiments, including scripts for hyperparameter tuning on cluster.
 
 ```arma_obj_det/``` contains all necessary files to run ARMA models for object detection using Faster-RCNN model.
 
